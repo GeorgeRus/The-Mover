@@ -1,0 +1,46 @@
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color: tomato;
+    position: relative;
+}
+
+.player{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+}
+
+.walls{
+    position: relative;
+}
+.wall{
+    width: 25px;
+    height: 375px;
+    background-color: aqua;
+    position:absolute;
+}
+
+.score{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
